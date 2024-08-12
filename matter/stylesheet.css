@@ -1,0 +1,236 @@
+.changingBGImg1{
+    animation: changingBG 30s linear infinite  ;
+}
+@keyframes changingBG {
+    0% {z-index: -10; opacity: 1; }
+    19% {z-index: -10; opacity: 1; }
+    20% {z-index: -10; opacity: 0; }
+    20% {z-index: -20;}
+    40% {z-index: -30;}
+    60% {z-index: -40; }
+    80% {z-index: -50;}
+    100% {z-index: -60; opacity: 0;}   
+}
+
+.changingBGImg2{
+    animation: changingBG2 30s linear infinite ;
+}
+@keyframes changingBG2 {
+    0% {z-index: -20; }
+    20% {z-index: -30;}
+    40% {z-index: -40;}
+    60% {z-index: -50; }
+    80% {z-index: -60;}
+    89% {z-index: -10; opacity: 0;}
+    90% {z-index: -10; opacity: 1;}
+    100% {z-index: -10;}   
+}
+
+.changingBGImg3{
+    animation: changingBG3 30s linear infinite  ;
+}
+@keyframes changingBG3 {
+    0% {z-index: -30; }
+    20% {z-index: -40;}
+    40% {z-index: -50;}
+    60% {z-index: -60; }
+    79% {z-index: -10; opacity: 0;}
+    80% {z-index: -10; opacity: 1;}
+    89% {z-index: -10; opacity: 1;}
+    90% {z-index: -10; opacity: 0;}
+    100% {z-index: -20;}    
+}
+
+.changingBGImg4{
+    animation: changingBG4 30s linear infinite  ;
+}
+@keyframes changingBG4 {
+    0% {z-index: -40; }
+    20% {z-index: -50;}
+    40% {z-index: -60;}
+    59% {z-index: -10; opacity: 0;}
+    60% {z-index: -10; opacity: 1;}
+    79% {z-index: -10; opacity: 1;}
+    80% {z-index: -10; opacity: 0;}
+    80% {z-index: -20;}
+    100% {z-index: -30;}   
+}
+
+.changingBGImg5{
+    animation: changingBG5 30s linear infinite  ;
+}
+@keyframes changingBG5 {
+    0% {z-index: -50; }
+    20% {z-index: -60;}
+    39% {z-index: -10; opacity: 0;}
+    40% {z-index: -10; opacity: 1;}
+    59% {z-index: -10; opacity: 1;}
+    60% {z-index: -10; opacity: 0;}
+    60% {z-index: -20; }
+    80% {z-index: -30;}
+    100% {z-index: -40;}   
+}
+
+.changingBGImg6{
+    animation: changingBG6 30s linear infinite  ;
+}
+@keyframes changingBG6 {
+    0% {z-index: -60; }
+    19% {z-index: -10; opacity: 0;}
+    20% {z-index: -10; opacity: 1;}
+    39% {z-index: -10; opacity: 1;}
+    40% {z-index: -10; opacity: 0;}
+    40% {z-index: -20;}
+    60% {z-index: -30; }
+    80% {z-index: -40;}
+    100% {z-index: -50;}   
+}
+
+
+body{
+    font-family: 'Matter';
+}
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-Bold.eot');
+    src: local('Matter Bold'), local('Matter-Bold'),
+        url('Matter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Matter-Bold.woff2') format('woff2'),
+        url('Matter-Bold.woff') format('woff'),
+        url('Matter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-BoldItalic.eot');
+    src: local('Matter Bold Italic'), local('Matter-BoldItalic'),
+        url('Matter-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Matter-BoldItalic.woff2') format('woff2'),
+        url('Matter-BoldItalic.woff') format('woff'),
+        url('Matter-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-SemiBold.eot');
+    src: local('Matter SemiBold'), local('Matter-SemiBold'),
+        url('Matter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Matter-SemiBold.woff2') format('woff2'),
+        url('Matter-SemiBold.woff') format('woff'),
+        url('Matter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-MediumItalic.eot');
+    src: local('Matter Medium Italic'), local('Matter-MediumItalic'),
+        url('Matter-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Matter-MediumItalic.woff2') format('woff2'),
+        url('Matter-MediumItalic.woff') format('woff'),
+        url('Matter-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-Heavy.eot');
+    src: local('Matter Heavy'), local('Matter-Heavy'),
+        url('Matter-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Matter-Heavy.woff2') format('woff2'),
+        url('Matter-Heavy.woff') format('woff'),
+        url('Matter-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myMatter' ;
+    src: url('Matter-LightItalic.eot');
+    src: local('Matter Light Italic'), local('Matter-LightItalic'),
+        url('Matter-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Matter-LightItalic.woff2') format('woff2'),
+        url('Matter-LightItalic.woff') format('woff'),
+        url('Matter-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-Medium.eot');
+    src: local('Matter Medium'), local('Matter-Medium'),
+        url('Matter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Matter-Medium.woff2') format('woff2'),
+        url('Matter-Medium.woff') format('woff'),
+        url('Matter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-SemiBoldItalic.eot');
+    src: local('Matter SemiBold Italic'), local('Matter-SemiBoldItalic'),
+        url('Matter-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Matter-SemiBoldItalic.woff2') format('woff2'),
+        url('Matter-SemiBoldItalic.woff') format('woff'),
+        url('Matter-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-HeavyItalic.eot');
+    src: local('Matter Heavy Italic'), local('Matter-HeavyItalic'),
+        url('Matter-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('Matter-HeavyItalic.woff2') format('woff2'),
+        url('Matter-HeavyItalic.woff') format('woff'),
+        url('Matter-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-Light.eot');
+    src: local('Matter Light'), local('Matter-Light'),
+        url('Matter-Light.eot?#iefix') format('embedded-opentype'),
+        url('Matter-Light.woff2') format('woff2'),
+        url('Matter-Light.woff') format('woff'),
+        url('Matter-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-Regular.eot');
+    src: local('Matter Regular'), local('Matter-Regular'),
+        url('Matter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Matter-Regular.woff2') format('woff2'),
+        url('Matter-Regular.woff') format('woff'),
+        url('Matter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matter';
+    src: url('Matter-RegularItalic.eot');
+    src: local('Matter Regular Italic'), local('Matter-RegularItalic'),
+        url('Matter-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Matter-RegularItalic.woff2') format('woff2'),
+        url('Matter-RegularItalic.woff') format('woff'),
+        url('Matter-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
