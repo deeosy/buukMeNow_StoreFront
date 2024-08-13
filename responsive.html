@@ -48,68 +48,281 @@
 </head>
 
 <body>
-  <section>
-    <div class="h-[785px] w-[1440px] mx-auto rounded-t-sm relative overflow-hidden">
-      <img src="./images/Property 1=bg 2.png" alt="background image" class="absolute changingBGImg1">
-      <img src="./images/changingBGImg2.png" alt="background image" class="absolute changingBGImg2">
-      <img src="./images/changingBGImg3.png" alt="background image" class="absolute changingBGImg3">
-      <img src="./images/changingBGImg4.png" alt="background image" class="absolute changingBGImg4">
-      <img src="./images/changingBGImg5.png" alt="background image" class="absolute changingBGImg5">
-      <img src="./images/changingBGImg6.png" alt="background image" class="absolute changingBGImg6">      
-      <div class="h-[112px] relative flex items-center gap-[24px] mx-[110px] justify-between ">
-        <div class="h-[24px] flex gap-[24px] w-[213px]">
-          <img src="./images/BUUK FULL LOGO MAIN HORIZONTAL 1.png" alt="buuk logo" class="">
-          <div class="flex items-center">
-            <p class="text-white ">$ USD</p>
+  <section class="sm:w-[100vw] sm:h-[70vh]">
+    <div class="h-[785px] w-[1440px] mx-auto rounded-t-sm relative overflow-hidden sm:w-[100%] ">
+      <img src="./images/Property 1=bg 2.png" alt="background image" class="absolute changingBGImg1 sm:w-[100%] sm:h-[70%]">
+      <img src="./images/changingBGImg2.png" alt="background image" class="absolute changingBGImg2 sm:w-[100%] sm:h-[70%]">
+      <img src="./images/changingBGImg3.png" alt="background image" class="absolute changingBGImg3 sm:w-[100%] sm:h-[70%]">
+      <img src="./images/changingBGImg4.png" alt="background image" class="absolute changingBGImg4 sm:w-[100%] sm:h-[70%]">
+      <img src="./images/changingBGImg5.png" alt="background image" class="absolute changingBGImg5 sm:w-[100%] sm:h-[70%]">
+      <img src="./images/changingBGImg6.png" alt="background image" class="absolute changingBGImg6 sm:w-[100%] sm:h-[70%]">      
+      <div class="h-[112px] relative flex items-center gap-[24px] mx-[110px] sm:mx-auto justify-between sm:flex-col sm:gap-y-[0px] sm:text-[14px] sm:gap-[6px] sm:h-[100px]">
+        <div class="h-[24px] flex gap-[24px] w-[213px] sm:h-[30px] sm:w-[90%] sm:mt-[20px] sm:justify-between sm:items-center ">
+          <img src="./images/BUUK FULL LOGO MAIN HORIZONTAL 1.png" alt="buuk logo" class="sm:h-[50px]">
+          <div class="flex items-center sm:">
+            <p class="text-white sm:w-[60px] ">$ USD</p>
             <img src="./images/arrow-down.svg" alt="arrow down" class="h-[12px] w-[12px]">
           </div>
         </div>
-        <div class="flex items-center gap-[24px]">
-          <div class="flex  items-center bg-white h-[48px] w-[311px] rounded-md">
+        <div class="flex items-center gap-[24px] relative sm:w-[100vw]">
+          <div class="sm:absolute sm:left-[-999px] flex  items-center bg-white h-[48px] w-[311px] rounded-md ">
             <img src="./images/searchIcon.svg" alt="search icon" class="h-[20px] w-[20px] ml-[16px] ">
             <input type="text" name="search" id="navSearchBar" placeholder="Search Buukmenow" class="text-[14px] outline-none ml-[5px]">
           </div>
-          <p class="text-white text-[16px]">Marketplace</p>
-          <p class="text-white text-[16px]">About</p>
-          <p class="text-white text-[16px]">For Business</p>
-          <img src="./images/shop cart icon.png" alt="shopping cart" class="h-[40px]">
-          <img src="./images/profile icon.png" alt="shopping cart" class="h-[40px]">
+          <div class="flex items-center sm:w-[90%] sm:gap-[10px] sm:mx-[auto]">
+            <p class="text-white text-[16px] sm:text-[14px]">Marketplace</p>
+            <p class="text-white text-[16px] sm:text-[14px]">About</p>
+            <p class="text-white text-[16px] sm:text-[14px] ">For Business</p>
+            <img src="./images/shop cart icon.png" alt="shopping cart" class="h-[40px] sm:h-[25px]">
+            <img src="./images/profile icon.png" alt="shopping cart" class="h-[40px] sm:h-[25px]">
+          </div>
         </div>
       </div>
-      <div class="mt-[64px] mx-[119px] relative">
+      <div class="mt-[64px] mx-[119px] relative sm:mx-auto sm:p-[20px] sm:w-[100%]">
         <div class="text-white ">
-          <p class="text-[56px] mx-auto font-medium text-center w-[868px]">Lorem ipsum dolor sit amet consectetur.</p>
-          <p class="text-[16px] mx-auto mt-[16px] text-center w-[868px]">Lorem ipsum dolor sit amet consectetur. Egestas sed risus vitae volutpat bibendum sapien.</p>
+          <p class="text-[56px] mx-auto font-medium text-center w-[868px] sm:text-[20px] sm:text-left sm:w-[100%]">Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="text-[16px] mx-auto mt-[16px] text-center w-[868px] sm:text-[12px] sm:text-left sm:w-[90%] sm:mx-[0px]">Lorem ipsum dolor sit amet consectetur. Egestas sed risus vitae volutpat bibendum sapien.</p>
         </div>
-        <div class="mt-[96px] py-8px flex justify-between gap-[2px]">
-          <div class="bg-white h-[40px] flex items-center rounded-md">
-            <div class="flex gap-[24px] justify-around w-[1070px] rounded-md">
-              <div class="flex items-center border-r-[1px] border-black ml-[24px] w-[238px]">
+        <div class="mt-[96px] py-8px flex justify-between gap-[2px] sm:flex-col sm:h-[80px]">
+          <div class="bg-white h-[40px] flex items-center rounded-md sm:bg-transparent ">
+            <div class="flex gap-[24px] justify-around w-[1070px] rounded-md sm:flex-col sm:gap-[4px] ">
+              <div class="flex items-center border-r-[1px] border-black ml-[24px] w-[238px] bg-white sm:w-[35vw] sm:ml-[-1px] sm:h-[40px] sm:px-[10px] sm:rounded-md">
                 <img src="./images/service.png" alt="" class="h-[16px] mr-[8px] ">
                 <p class="text-primary text-[14px]">Service</p>
               </div>
-              <div class="flex items-center w-[238px]">
+              <div class="flex items-center w-[238px] bg-white sm:w-[35vw] sm:ml-[-1px] sm:h-[40px] sm:px-[10px] sm:rounded-md">
                 <img src="./images/location.png" alt="" class="h-[16px] mr-[8px] ">
                 <p class="text-primary text-[14px]">Current location</p>
               </div>
-              <div class="flex items-center border-r-[1px] border-black w-[238px]">
+              <div class="flex items-center border-r-[1px] border-black w-[238px] bg-white sm:w-[35vw] sm:ml-[-1px] sm:h-[40px] sm:px-[10px] sm:rounded-md">
                 <img src="./images/calendar.png" alt="" class="h-[16px] mr-[8px] ">
                 <p class="text-primary text-[14px]">Date</p>
               </div>
-              <div class="flex items-center w-[238px]">
+              <div class="flex items-center w-[238px] bg-white sm:w-[35vw] sm:ml-[-1px] sm:h-[40px] sm:px-[10px] sm:rounded-md">
                 <img src="./images/clock.png" alt="" class="h-[16px] mr-[8px] ">
                 <p class="text-primary text-[14px]">Time</p>
               </div>
             </div>            
           </div>
-          <div class="w-[122px] h-[40px] text-primary bg-white flex place-items-center place-content-center rounded-md">
+          <div class="w-[122px] h-[40px] text-primary bg-white flex place-items-center place-content-center rounded-md sm:mb-[-80px] sm:mt-[-15px]">
             <p class="text-center text-[14px]">Search results</p>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section>
+  <section >
+    <div class="h-[733px] w-[1440px] mx-auto  sm:relative sm:w-[60vw] sm:mx-auto sm:z-[-90]  sm:mt-[-120px]">
+      <p class="w-[100%] mx-[110px] mt-[108px] text-[32px] font-medium sm:w-[90%] sm:ml-[-44px] sm:mx-auto sm:text-[18px] sm:z-[-90]">New on Buukmenow</p>
+      <div class="relative overflow-hidden">
+        <div class="flex mt-[48px] mx-[110px] gap-[24px] sm:flex-col sm:h-[680px] sm:mx-auto sm:overflow-y-scroll sm:absolute sm:right-[17px] sm:z-[-90]  ">
+          <div class=" p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
+            <div>
+              <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
+            </div>
+            <div>
+              <div class="flex justify-between ">
+                <p class="text-primary text-[14px] flex items-center">
+                  <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
+                  $ 10,000
+                </p>
+                <p class="text-blackText text-[14px] flex items-center">
+                  See details
+                  <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
+                </p>
+              </div>
+              <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
+              <p class="mt-[14px] text-greenText">Business name</p>
+              <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
+                <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
+                4.7(54)
+              </p>
+              <div class="flex justify-between">
+                <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                  <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
+                  <p class="text-[#2B383] text-[12px]">In-person</p>
+                </div>
+                <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                  <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
+                  <p class="text-[#2B383] text-[12px]">60 Minutes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
+            <div>
+              <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
+            </div>
+            <div>
+              <div class="flex justify-between ">
+                <p class="text-primary text-[14px] flex items-center">
+                  <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
+                  $ 10,000
+                </p>
+                <p class="text-blackText text-[14px] flex items-center">
+                  See details
+                  <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
+                </p>
+              </div>
+              <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
+              <p class="mt-[14px] text-greenText">Business name</p>
+              <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
+                <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
+                4.7(54)
+              </p>
+              <div class="flex justify-between">
+                <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                  <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
+                  <p class="text-[#2B383] text-[12px]">In-person</p>
+                </div>
+                <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                  <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
+                  <p class="text-[#2B383] text-[12px]">60 Minutes</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
+            <div>
+              <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
+            </div>
+            <div>
+              <div class="flex justify-between ">
+                <p class="text-primary text-[14px] flex items-center">
+                  <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
+                  $ 10,000
+                </p>
+                <p class="text-blackText text-[14px] flex items-center">
+                  See details
+                  <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
+                </p>
+              </div>
+              <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
+              <p class="mt-[14px] text-greenText">Business name</p>
+              <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
+                <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
+                4.7(54)
+              </p>
+              <div class="flex justify-between">
+                <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                  <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
+                  <p class="text-[#2B383] text-[12px]">In-person</p>
+                </div>
+                <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                  <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
+                  <p class="text-[#2B383] text-[12px]">60 Minutes</p>
+                </div>
+              </div>
+            </div>          
+          </div>
+        </div>
+
+
+      </div>
+      <div class="flex mt-[48px] mx-[110px] gap-[24px] sm:flex-col sm:h-[680px] sm:w-[100%] sm:mx-auto sm:overflow-hidden sm:z-[-90]  ">
+        <div class=" p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
+          <div>
+            <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
+          </div>
+          <div>
+            <div class="flex justify-between ">
+              <p class="text-primary text-[14px] flex items-center">
+                <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
+                $ 10,000
+              </p>
+              <p class="text-blackText text-[14px] flex items-center">
+                See details
+                <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
+              </p>
+            </div>
+            <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
+            <p class="mt-[14px] text-greenText">Business name</p>
+            <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
+              <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
+              4.7(54)
+            </p>
+            <div class="flex justify-between">
+              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
+                <p class="text-[#2B383] text-[12px]">In-person</p>
+              </div>
+              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
+                <p class="text-[#2B383] text-[12px]">60 Minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
+          <div>
+            <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
+          </div>
+          <div>
+            <div class="flex justify-between ">
+              <p class="text-primary text-[14px] flex items-center">
+                <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
+                $ 10,000
+              </p>
+              <p class="text-blackText text-[14px] flex items-center">
+                See details
+                <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
+              </p>
+            </div>
+            <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
+            <p class="mt-[14px] text-greenText">Business name</p>
+            <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
+              <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
+              4.7(54)
+            </p>
+            <div class="flex justify-between">
+              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
+                <p class="text-[#2B383] text-[12px]">In-person</p>
+              </div>
+              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
+                <p class="text-[#2B383] text-[12px]">60 Minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
+          <div>
+            <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
+          </div>
+          <div>
+            <div class="flex justify-between ">
+              <p class="text-primary text-[14px] flex items-center">
+                <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
+                $ 10,000
+              </p>
+              <p class="text-blackText text-[14px] flex items-center">
+                See details
+                <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
+              </p>
+            </div>
+            <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
+            <p class="mt-[14px] text-greenText">Business name</p>
+            <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
+              <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
+              4.7(54)
+            </p>
+            <div class="flex justify-between">
+              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
+                <p class="text-[#2B383] text-[12px]">In-person</p>
+              </div>
+              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
+                <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
+                <p class="text-[#2B383] text-[12px]">60 Minutes</p>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section>
     <div class="h-[733px] w-[1440px] mx-auto overflow-hidden">
       <p class="w-[100%] mx-[110px] mt-[108px] text-[32px] font-medium">New on Buukmenow</p>
       <div class="flex mt-[48px] mx-[110px] gap-[24px]">
@@ -214,113 +427,7 @@
         </div>
       </div>
     </div>
-  </section>
-  <section>
-    <div class="h-[733px] w-[1440px] mx-auto overflow-hidden">
-      <p class="w-[100%] mx-[110px] mt-[108px] text-[32px] font-medium">New on Buukmenow</p>
-      <div class="flex mt-[48px] mx-[110px] gap-[24px]">
-        <div class=" p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
-          <div>
-            <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
-          </div>
-          <div>
-            <div class="flex justify-between ">
-              <p class="text-primary text-[14px] flex items-center">
-                <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
-                $ 10,000
-              </p>
-              <p class="text-blackText text-[14px] flex items-center">
-                See details
-                <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
-              </p>
-            </div>
-            <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
-            <p class="mt-[14px] text-greenText">Business name</p>
-            <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
-              <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
-              4.7(54)
-            </p>
-            <div class="flex justify-between">
-              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
-                <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
-                <p class="text-[#2B383] text-[12px]">In-person</p>
-              </div>
-              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
-                <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
-                <p class="text-[#2B383] text-[12px]">60 Minutes</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
-          <div>
-            <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
-          </div>
-          <div>
-            <div class="flex justify-between ">
-              <p class="text-primary text-[14px] flex items-center">
-                <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
-                $ 10,000
-              </p>
-              <p class="text-blackText text-[14px] flex items-center">
-                See details
-                <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
-              </p>
-            </div>
-            <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
-            <p class="mt-[14px] text-greenText">Business name</p>
-            <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
-              <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
-              4.7(54)
-            </p>
-            <div class="flex justify-between">
-              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
-                <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
-                <p class="text-[#2B383] text-[12px]">In-person</p>
-              </div>
-              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
-                <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
-                <p class="text-[#2B383] text-[12px]">60 Minutes</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-[24px] flex flex-col gap-[16px] border-[1px] boder-[#CCCFCE] rounded-[8px]">
-          <div>
-            <img src="./images/Rectangle 17.png" alt="lady looking in the mirror" class="rounded-md">
-          </div>
-          <div>
-            <div class="flex justify-between ">
-              <p class="text-primary text-[14px] flex items-center">
-                <img src="./images/Wallet.svg" alt="" class="h-[16px] mr-[3px]">
-                $ 10,000
-              </p>
-              <p class="text-blackText text-[14px] flex items-center">
-                See details
-                <img src="./images/Arrow - Right.svg" alt="" class="h-[16px] ml-[4px]">
-              </p>
-            </div>
-            <p class="text-blackText mt-[32px] text-[16px] font-medium">Name of service</p>
-            <p class="mt-[14px] text-greenText">Business name</p>
-            <p class="mt-[24px] text-[12px] text-[#808785] flex items-center">
-              <img src="./images/Star.png" alt="" class="h-[12px] mr-[2px]">
-              4.7(54)
-            </p>
-            <div class="flex justify-between">
-              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
-                <img src="./images/Group 36202.svg" alt="" class="h-[12px]">
-                <p class="text-[#2B383] text-[12px]">In-person</p>
-              </div>
-              <div class="flex justify-between items-center p-[8px] rounded-[30px] bg-grayBG gap-[8px] h-[28px] mt-[32px]">
-                <img src="./images/Time Circle.svg" alt="" class="h-[12px]">
-                <p class="text-[#2B383] text-[12px]">60 Minutes</p>
-              </div>
-            </div>
-          </div>          
-        </div>
-      </div>
-    </div>
-  </section>
+  </section> -->
   <section>
     <div class="h-[526px] w-[1440px] mx-auto overflow-hidden">
       <div class="flex justify-between mx-[140px] mt-[108px] items-center ">
@@ -485,7 +592,7 @@
       </div>
     </div>
   </section>
-  <footer class="bg-primary py-[80px] mt-[72px] w-[1440px] mx-auto ">
+  <footer class="bg-primary py-[80px] mt-[72px] w-[1440px] mx-auto">
       <div class="h-[248px] w-[1160px] mx-auto mb-[80px] text-white flex justify-between gap-[128px]">
         <div class="w-[500px]">
           <img src="./images/BUUK FULL LOGO MAIN HORIZONTAL 1.png" alt="" class="h-[24px]">
